@@ -1,0 +1,15 @@
+How does the internet works via cables ?
+
+Data center
+Optical fiber network
+Server
+
+IP address (internet protocol)
+is a unique address that indentifies a device on the internet or
+a local network .
+
+To access the internet we use domain name (ex: facebook.com) instead of ip address .
+
+DNS : Domain Name System
+
+protocols
