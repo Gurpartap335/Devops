@@ -13,3 +13,21 @@ To access the internet we use domain name (ex: facebook.com) instead of ip addre
 DNS : Domain Name System
 
 protocols
+
+
+How does the internet work ?
+Internet simply is a wire .
+
+
+Every Server has unique IP address . 
+IP address helps computer find each other .
+
+We also give them names like google.com to easy to remember .
+everything connected to internet has IP address .
+
+computer we used are called clients bcz they are indirectly connected to internet through ISP.
+
+computer breaks the information in small pieces called packets .
+
+
+router
