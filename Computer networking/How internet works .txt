@@ -27,12 +27,12 @@ everything connected to internet has IP address .
 
 computer we used are called clients bcz they are indirectly connected to internet through ISP.
 
-computer breaks the information in small pieces called packets .
+computer breaks the information in small pieces called packets 
 
+A simple network
+when two computers need to communicate , you have to link them , either physically (usually with an Ethernet cable) or wirelessly (WiFi or bluetooth systems)
 
-router
+All modern computers can sustain any of those connections .
 
-
-
-
-hh
+router has only one job : like  a signaler at a railway station
+it makes sure that a message sent from a given computer arrives at the right destination computer .
