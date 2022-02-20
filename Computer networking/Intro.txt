@@ -47,3 +47,29 @@ larger geographic area by interconnecting a different LAN to form a larger netwo
 Government agencies use MAN to connect to the citizens and private industries .
 
 WAN : is a network that extends over a large geographical area such as states or countries .
+
+
+
+
+What is topology ?
+Topology defines the structure of the network of how all the components are interconnected to each other .
+
+Two types of topology : physical and logical 
+BUS RING TREE STAR MESH HYBRID .
+
+BUS :: 
+backbone cable -> single cable 
+
+RING ::
+topology is like a bus topology , but with connected ends .
+
+STAR ::
+central Computer is an known as a server .
+devices attached to the server are known as clients .
+Efficient troubleshooting as compare to bus ring.
+
+TREE = BUS + star .
+
+MESH : technology is an arrangement of the network in which computers are interconnected with each other through various redundant connections .
+MESH :: 
+NUmber of cables = (n*(n-1))/2 n :: no. of nodes that represent network .
