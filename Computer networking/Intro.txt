@@ -4,6 +4,10 @@ ICP : Internet Service provider
 Ip : Internet protocol
 www : world wide web
 
+protocol ::
+a system of fixed rules and formal behaviour used at official meetings , usually between governments .
+
+
 Computer Network is a group of computers connected with each other through wires , 
 optical fibres or optical links so that various device can interact with each other through a network .
 
@@ -58,7 +62,18 @@ Two types of topology : physical and logical
 BUS RING TREE STAR MESH HYBRID .
 
 BUS :: 
-backbone cable -> single cable 
+backbone cable -> single cable
+Advantages ::
+1. Low-cost cable
+2. Moderate data speeds :: 10Mbps
+3, Familiar technology
+4. LImited failure
+
+Disadvantages ::
+Extensive cabling
+Difficult troubleshooting
+Signal interference
+
 
 RING ::
 topology is like a bus topology , but with connected ends .
@@ -73,3 +88,13 @@ TREE = BUS + star .
 MESH : technology is an arrangement of the network in which computers are interconnected with each other through various redundant connections .
 MESH :: 
 NUmber of cables = (n*(n-1))/2 n :: no. of nodes that represent network .
+
+
+IP (internet protocol address) is a numrical label such as 192.33.2.1 that is connected to a computer network that uses IP for communication .
+
+IP address serves two main functions:
+1. network interface identification and 2 . local addressing .
+
+IPv4 32-bit NUmber
+IPv6 using 128 bits for the IP address . (since mid 2000s)
+
