@@ -34,5 +34,28 @@ when two computers need to communicate , you have to link them , either physical
 
 All modern computers can sustain any of those connections .
 
+Special tiny computer called router .
 router has only one job : like  a signaler at a railway station
 it makes sure that a message sent from a given computer arrives at the right destination computer .
+
+A network of networks
+
+Modem 
+ISP Internet Service provider
+
+Finding computer
+IP address for ex. 142.250.190.78
+IP address with a human readable name called a DOMAIN Name .
+
+Internet is a technical infrastruture which allows billions of computers to be connected all together .
+Among those computers , some computers (called Web servers) can send messages intelligble to web browsers .
+IRC internet Relay chat 
+
+Intranet and Extranet
+
+Intranet are private networks that are restrited to members of a particlur organization .
+
+Extranets are very similar to intranets , except they open all or part of a network to allow sharing 
+and collaboration with other organizations .
+
+Internet -> Extranet -> Intranet .
