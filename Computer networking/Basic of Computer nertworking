@@ -28,7 +28,13 @@ A protocol is the set of rules which define the way how entities can communicate
 Examples :: TCP IP UDP ARP DHCP FTP
 
 Unique indentifiers of network ::
-Host name
+Host name :: each device in the network is associared with a unique name known as HOStNAME .
 IP address
-MAC address
+also known as logical address
+IANA assigns IPv4 
+IPv4 :: 32 bits
+IPv6 :: 128-bits
+
+type :: ipconfig 
+MAC address (Media access control address) or physical address 
 Port
