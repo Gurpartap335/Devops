@@ -11,6 +11,37 @@ a system of fixed rules and formal behaviour used at official meetings , usually
 Computer Network is a group of computers connected with each other through wires , 
 optical fibres or optical links so that various device can interact with each other through a network .
 
+Types of Computer networks
+WAN (wide area network)
+MAN (metropolitan area network)
+LAN
+PAN (personal area network)
+
+Computer networks :
+LAN (Local area network)
+PAN (personal)
+MAN(Metropolitan)
+WAN(Wide)
+
+LAN ::
+Building , office , school
+
+PAN :: is a computer network formed around a person .
+10m range 
+
+MAN ::
+larger geographic area by interconnecting a different LAN to form a larger network .
+Government agencies use MAN to connect to the citizens and private industries .
+
+WAN : is a network that extends over a large geographical area such as states or countries .
+
+Network components >>
+End Devices > PC , Laptop , Mobile
+Connecting Devices > hubs , switches , routers 
+Transmission media > wired , wireless media 
+Software > operating system 
+
+
 Major components of a computer network are :
 NIC (National interface card) is a device that helps the computer to communicate with another device .
 
@@ -32,28 +63,6 @@ fibre optic cable
 Router is a device that connects the LAN to the internet .
 
 Modem : connects the computer to the internet over the exiting telephone line .
-
-Computer networks :
-LAN (Local area network)
-PAN (personal)
-MAN(Metropolitan)
-WAN(Wide)
-
-
-LAN ::
-Building , office
-
-PAN :: 
-10m range 
-
-MAN ::
-larger geographic area by interconnecting a different LAN to form a larger network .
-Government agencies use MAN to connect to the citizens and private industries .
-
-WAN : is a network that extends over a large geographical area such as states or countries .
-
-
-
 
 What is topology ?
 Topology defines the structure of the network of how all the components are interconnected to each other .
