@@ -1,0 +1,62 @@
+OSI open systems Interconnection
+It has been developed by ISO International Organization for standardization 1984 .
+
+OSI model defines and is used to understand - How data is transferred from one computer to another in computer network ?
+
+In order to accomplish successfull communication between computers or networks of different architectures , OSI model was introduced .
+
+7 layer architecture 
+all these 7 layers work collaboratively to transmit the data from person to another 
+across the globe .
+
+software layers ::
+Application layer
+Presentation layer
+session layer
+
+Heart of OSI::
+Transport layer
+
+Hardware layers ::
+Network layer
+Data link layer
+Physical Layer .
+
+Physical layer ::
+It is responsible for the actual physical connection between the devices .
+
+Application -> software
+
+1. Physical Layer ::
+lowest layer of the OSI reference model is the physical layer .
+contains information in bits .
+
+functions >
+Bit synchronization
+Bit rate control
+Physical topologies
+Transmission mode (various transmission modes possible are simplex , half duplex , full fuplex) .
+
+HUB , Repeater , Modem , Cables are Physical Layer devices .
+
+2. 
+DATA LINK LAYER (DDL)
+The main function of this layer is to make sure data transfer  is error free from one node to another , over the physical layer .
+
+functions >>
+Framing 
+Physical addressing
+Error control
+Flow control
+Access control
+
+Switch and Bridge are Data Link layer devices .
+
+3. 
+Network Layer 
+The network layer works for the transmission of data from one host to the other located in different networks .
+it also takes care of packet routing .
+
+Functions ::
+Routing
+Logical Addressing 

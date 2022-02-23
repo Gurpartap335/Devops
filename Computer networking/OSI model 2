@@ -1,0 +1,32 @@
+1. Apllication layer : Network Applications likes that uses internet chrome firefox sykpe
+
+Protocols
+File transfer FTP 
+web surfing  HTTP HTTPs
+Emails SMTP
+Virtual terminals Telnet
+
+2. Presentation layer
+Translation Data   Compression  Encryption/Decryption
+
+3. Session layer
+APIs Application Programming interface
+NETBIOS Network Basic Input/output System
+a. Session
+b. Authentication : who are you ? username password 
+c. Authorization
+
+also check which files are being downloaded
+
+4. Transport layer :
+Segmentation
+Flow control
+server sending data 40mbps but we can download files 10mbps 
+so transport layer tell server to slow down so data can not lost .
+
+Error control ::
+
+5. Network Layer
+6. Data Link Layer
+7. Physical layer
+
