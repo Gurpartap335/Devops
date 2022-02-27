@@ -70,7 +70,54 @@ Topology defines the structure of the network of how all the components are inte
 Two types of topology : physical and logical 
 BUS RING TREE STAR MESH HYBRID .
 
-BUS :: 
+RING ::
+topology is like a bus topology , but with connected ends .
+
+Advantages >>
+the posibility of collisions is minimum in this type of tepology .
+cheap
+
+Disadvantages >>
+less secure
+troubleshooting(form of problem solving)
+additions of new devices can distrub other system 
+
+
+TREE = BUS + star .
+Hierarhical flow of data .
+
+central hub fails the entire system fails .
+cost is high because of cabling .
+
+MESH : technology is an arrangement of the network in which computers are interconnected with each other through various redundant connections .
+MESH :: 
+NUmber of cables = (n*(n-1))/2 n :: no. of nodes that represent network .
+Avantages : 
+it is robust .
+The fault is diagnosed easliy .
+Provides security and privacy
+
+Disadvantages >>>
+installation and configuration is difficult .
+cost of cables so required less devices .
+THe cost of maintenance is high .
+
+STAR ::
+In star topology , all the devices are connected to a single hub through a cable .
+central Computer is an known as a server .
+devices attached to the server are known as clients .
+Efficient troubleshooting as compare to bus ring.
+
+Advantages >>
+N devices than N cables 
+Easy to setup .
+
+Disadvantages >>>
+cost of installation is high .
+all system relies on hub
+
+
+BUS :: is a network type in which every computer and network device is connected to a single cable .
 backbone cable -> single cable
 Advantages ::
 1. Low-cost cable
@@ -79,34 +126,19 @@ Advantages ::
 4. LImited failure
 
 Disadvantages ::
+if the network traffic is heavy , it increases collisions in the network . To avoid this , various protocols are used in the MAC layer known CSMA?CD 
 Extensive cabling
 Difficult troubleshooting
 Signal interference
-
-
-RING ::
-topology is like a bus topology , but with connected ends .
-
-STAR ::
-central Computer is an known as a server .
-devices attached to the server are known as clients .
-Efficient troubleshooting as compare to bus ring.
-
-TREE = BUS + star .
-
-MESH : technology is an arrangement of the network in which computers are interconnected with each other through various redundant connections .
-MESH :: 
-NUmber of cables = (n*(n-1))/2 n :: no. of nodes that represent network .
-
 
 IP (internet protocol address) is a numrical label such as 192.33.2.1 that is connected to a computer network that uses IP for communication .
 
 IP address serves two main functions:
 1. network interface identification and 2 . local addressing .
 
-IPv4 32-bit NUmber
+IPv4 32-bit NUmber address
 IPv6 using 128 bits for the IP address . (since mid 2000s)
-
+IPv6 increases the IP address from 32 bits to 132 bits to support larger address demands .
 
 Port Number ::
 A port number is a 16-bit unsigned integer , thus ranging from 0 to 65535 .
