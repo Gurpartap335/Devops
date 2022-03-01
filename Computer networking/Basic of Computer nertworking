@@ -2,6 +2,20 @@ Open System :: A system which is connected to the network and is ready for commu
 
 Closed System :: A system which is not connected to the network and can not be communicated with .
 
+Computer network :: Computer Network is a group of computers connected with each other through wires , 
+optical fibres or optical links so that various device can interact with each other through a network .
+The computers use common communication protocols over digital interconnection to communicate  with each other .
+
+uses of computer network :: 
+1. It facilitates communication from one computer to another computer .
+2. exchange of data 
+3. it allows you to share such as printers , scanners etc.
+
+
+Netork packet is a formatted unit of data carried by a packet-switched network .
+
+In computing , bandwidth is the maximum rate of data transfer across a given path .
+
 Network Devices ::
 Router
 Hub
