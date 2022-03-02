@@ -63,4 +63,24 @@ is a unique physical address assigned to each network adapter in a computer or m
 
 More than one mac address .
 
-Port
+Port ::
+A port can be referred to as a logical channel through which data can be sent/received to an application .
+
+A port number is a 16-bit integer 
+2^16 65,536
+
+netstat -a
+
+Socket : unique combination of ip address and port number together are termed as socket .
+
+DNS (domain name system)
+DNS is basically server which translate web addresses or URLs  (ex:google.com) into their corresponding IP addresses .
+
+nslookup
+
+
+ARP : Address resolution protocol
+IP -> mac
+used by the DATA Link layer .
+
+RARP reverse address resolution protocol .
