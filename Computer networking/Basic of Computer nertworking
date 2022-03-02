@@ -39,10 +39,18 @@ sepecifies standards for communication protocols and also the functionalities of
 Protocol ::
 A protocol is the set of rules which define the way how entities can communicate across the network 
 
+Subnet mask ::
+is used to divide an Ip address into two parts . one part identifies the host (computer) , the other part identifies 
+the network to which it belongs .
+
 Examples :: TCP IP UDP ARP DHCP FTP
 
 Unique indentifiers of network ::
-Host name :: each device in the network is associared with a unique name known as HOStNAME .
+1. Hostname
+2. IP address
+3. MAC address (a mac address is assigned to the NIC at the time of manufacturing . )
+
+Host name :: each device in the network is associated with a unique name known as HOStNAME .
 IP address
 also known as logical address
 IANA assigns IPv4 
@@ -51,4 +59,8 @@ IPv6 :: 128-bits
 
 type :: ipconfig 
 MAC address (Media access control address) or physical address 
+is a unique physical address assigned to each network adapter in a computer or mobile device .
+
+More than one mac address .
+
 Port
