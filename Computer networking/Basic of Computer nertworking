@@ -75,8 +75,7 @@ Socket : unique combination of ip address and port number together are termed as
 
 DNS (domain name system)
 DNS is basically server which translate web addresses or URLs  (ex:google.com) into their corresponding IP addresses .
-
-nslookup
+nslookup command .
 
 
 ARP : Address resolution protocol
