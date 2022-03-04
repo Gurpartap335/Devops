@@ -26,37 +26,36 @@ Physical layer ::
 It is responsible for the actual physical connection between the devices .
 
 Application -> software
+1. Application layer : Network Applications likes that uses internet chrome firefox sykpe
 
-1. Physical Layer ::
-lowest layer of the OSI reference model is the physical layer .
-contains information in bits .
+Protocols
+File transfer FTP 
+web surfing  HTTP HTTPs
+Emails SMTP
+Virtual terminals Telnet
 
-functions >
-Bit synchronization
-Bit rate control
-Physical topologies
-Transmission mode (various transmission modes possible are simplex , half duplex , full fuplex) .
+2. Presentation layer
+Translation Data   Compression  Encryption/Decryption
 
-HUB , Repeater , Modem , Cables are Physical Layer devices .
+3. Session layer
+APIs Application Programming interface
+NETBIOS Network Basic Input/output System
+a. Session
+b. Authentication : who are you ? username password 
+c. Authorization
 
-2. 
-DATA LINK LAYER (DDL)
-The main function of this layer is to make sure data transfer  is error free from one node to another , over the physical layer .
+also check which files are being downloaded
 
-functions >>
-Framing 
-Physical addressing
-Error control
+4. Transport layer :
+Segmentation
 Flow control
-Access control
+server sending data 40mbps but we can download files 10mbps 
+so transport layer tell server to slow down so data can not lost .
 
-Switch and Bridge are Data Link layer devices .
+Error control ::
 
-3. 
-Network Layer 
-The network layer works for the transmission of data from one host to the other located in different networks .
-it also takes care of packet routing .
+5. Network Layer
+6. Data Link Layer
+7. Physical layer
 
-Functions ::
-Routing
-Logical Addressing 
+
