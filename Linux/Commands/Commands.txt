@@ -1,0 +1,229 @@
+Shell ::: What is shell ?
+>>>  The shell is basically a program that takes your commands from
+    the keyboard and sends them to the operating system to perform .
+    
+    
+    Throughout this entire course we will be learning about the wonders of the shell .
+
+
+For checking which shell you are using 
+command : ps -p $$ or echo "$SHELL"
+For checking number of shells : cat /etc/shells
+
+Bash : Bourne Again SHell
+cat /etc/shells
+
+$ : is just a sign of the shell prompt , means that shell is ready to accept commands . 
+ 
+Flags are used to modify the behavior of command . ls -a (-a tells hidden files).
+                            
+echo , date , whoami
+pwd (Print working directory)
+
+cd (ChangeDirectory)  ::   
+cd .   current directory
+cd ..  parent directory
+cd ~   home directory
+cd -   previous directory
+               
+ls (List Directories)
+> ls -a  : Filenames start with . are hidden you can view them however with the ls command and pass -a flag to it. 
+(a for ALL)
+
+>ls -l
+l for LONG
+detailed list of files in a long format .
+file permissions , number of links , owner name , owner group , file size timestamp of last modification and file/directory name .
+
+ls -R : recursively list directory contents (Recursive)
+ls -r : reverse order while sorting (reverse)
+ls -t : sort by modification time , NEWEST FIRST .
+
+
+>> touch for creating new file .
+
+>> file :: To find out what kind of file a file is , you can use the file command .
+file b.jpg .
+
+
+>> cat command : to read file .
+
+>> history :: want to run the same command you did before , just hit UP ARROW .
+!! previous command
+
+
+>> cp(COPY)
+cp mycoolfile /home/pete/Documents/cooldocs
+    
+A wildcard is a character that can be substituted for a pattern based SELECTION , giving you more flexibility with searches .
+
+* : the wildcard of wildcards , it's used to represent all single characters or any string .
+? used to represent one character .
+[] used to represent any character within the brackets .
+
+cp *.jpg /home/pete/pictures
+This will copy all files with the .jpg extention in your CURRENT directory to the picture directory . 
+
+For copying a directory with files inside it use
+cp -r locationwheretocopy
+
+-i (interactive)
+
+
+>> mv (move)
+used for moving files and also renaming them .
+
+mv oldername newName
+
+mv file1 /home/gurpartap/Documents
+mv file1 file2 /home/gurpartap/Documents (move more than one file)
+
+
+>>> mkdir (Make Directory)
+for subdirectories
+mkdir -p books/hemmingway/fav
+
+
+>>> rm (Remove)
+Deleted file using rm command not comeback 
+rm -f file1 deleted the protected files .
+f (force)
+i (interactive)
+
+How to protect file in Linux ?
+
+
+
+==============================
+1. find
+find /home -name puppies.jpg
+
+
+2. help
+Linux has some great built-in tools to help you how to use a command
+or check what flags are available for a command .
+
+echo --help
+
+3. man 
+manual
+
+4. whatis
+whatis cat
+
+5. alias
+alias md = 'mkdir'
+
+6. exit or logout
+
+
+
+
+===
+Learn Basic text manipulation and navigation .
+
+1. stdout (Standard out) ::
+input/output streams .
+echo Hello World > file.txt
+By default the echo command takes the input (stdin) from the KEYBOARD
+and return the output(stdout) to the screen .
+
+This > is a redirection opertor that allows us to change where stdout goes. It allows us to send the output of echo Hello World to a file instead of screen .
+If the file does not already exit it will create it for us .
+However , if it does exit it will overwrite it .
+
+IF YOU DON'T WANT TO OVERWRITE USE REDIRECTION OPERATOR >> .
+don't want to overwrite file use ::: >> 
+
+
+
+2. stdin (Standard in)
+
+<(Less Than) :: stdin redirection .
+>(greater than) :: stout redirection .
+
+cat < peanuts.txt > banana.txt
+echo 
+ls 
+pwd
+
+3. stderr(Standard error)
+
+4. pipe tee
+
+
+User mangae
+1. Users and Groups :
+
+In any traditional operating system , there are users and groups . 
+
+File access and ownership is also permission dependent .
+
+Each user has their own home directory where their USER specific files get stored .
+
+This is usually located in /home/username but can vary in different distributions.
+
+The system uses user ids (UID : User indentifier) to manage users .
+
+username are the friendly way to associate users with identification
+BUT the system identifies users by their UID .
+
+GID GROUP IDENTIFIER .
+
+One of the most important users is root or superuser , root is the most powerful user on the system 
+root can access any file and start or terminate any process .
+
+For that reason it can be dangerous to operate as root all the time .
+
+>>> root is the user name or account that by default has access to all commands and files on a Linux or other unix-like operating system .
+
+
+Q. What command do you use to run as root ?
+Ans : To get root access :: 
+1. sudo <command>
+2. sudo -i gives you an interactive root shell . $ changes to # indicating that you have root access .
+3. su samething as sudo -i
+enter root password not your login password .
+use >> sudo passwd root
+
+
+2. Users ::: 
+
+This file lists users who can run sudo >> /etc/sudoers file
+su command substitute users 
+
+
+
+Remember that usernames are not really identifications for USERS .
+The system uses a user ID (UID) to identify a user .
+
+for <cat /etc/passwd> what users are mapped to what ID .
+
+root:x:0:0:root:/root:/bin/bash
+1. Username
+
+2. User's password : IT contains encrypted user passwords .
+
+
+3. The user ID : as you can see root has the UID of 0 .
+4. The group ID
+5. GESOCS field
+6. User's home directory
+7. User's shell . : bash shell 
+
+
+6. USER MANAGEMENT TOOLS >>>
+Adding users :: sudo useradd bob
+removing :: userdel bob
+changing passwd bob
+
+
+
+sudo apt upgrade 
+
+cal
+cowthink
+star wars ->> telnet
+espeak
+cmatrix
+cowsay
