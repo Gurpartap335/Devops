@@ -12,8 +12,7 @@ uses of computer network ::
 3. it allows you to share such as printers , scanners etc.
 
 
-
-Netork packet is a formatted unit of data carried by a packet-switched network .
+Network packet is a formatted unit of data carried by a packet-switched network .
 
 In computing , bandwidth is the maximum rate of data transfer across a given path .
 
@@ -77,7 +76,6 @@ Socket : unique combination of ip address and port number together are termed as
 DNS (domain name system)
 DNS is basically server which translate web addresses or URLs  (ex:google.com) into their corresponding IP addresses .
 nslookup command .
-
 
 ARP : Address resolution protocol
 IP -> mac

@@ -27,7 +27,7 @@ everything connected to internet has IP address .
 
 computer we used are called clients bcz they are indirectly connected to internet through ISP.
 
-computer breaks the information in small pieces called packets 
+computer breaks the information in small pieces called packets .
 
 A simple network
 when two computers need to communicate , you have to link them , either physically (usually with an Ethernet cable) or wirelessly (WiFi or bluetooth systems)
@@ -49,7 +49,7 @@ IP address with a human readable name called a DOMAIN Name .
 
 Internet is a technical infrastruture which allows billions of computers to be connected all together .
 Among those computers , some computers (called Web servers) can send messages intelligble to web browsers .
-IRC internet Relay chat 
+IRC internet Relay chat .
 
 Intranet and Extranet
 
