@@ -11,7 +11,6 @@ uses of computer network ::
 2. exchange of data 
 3. it allows you to share such as printers , scanners etc.
 
-
 Netork packet is a formatted unit of data carried by a packet-switched network .
 
 In computing , bandwidth is the maximum rate of data transfer across a given path .
