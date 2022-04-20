@@ -50,7 +50,7 @@ Unique indentifiers of network ::
 2. IP address
 3. MAC address (a mac address is assigned to the NIC at the time of manufacturing . )
 
-Host name :: each device in the network is associated with a unique name known as HOStNAME .
+Host name :: each device in the network is associated with a unique name known as HOSTNAME .
 IP address
 also known as logical address
 IANA assigns IPv4 
