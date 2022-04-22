@@ -1,0 +1,47 @@
+# key-value pairs
+app: "user-authentication" #string
+port: 9000 
+version: 1.7
+
+#objects
+microservice:
+ app: "user-authentication" #string
+ port: 9000 
+ version: 1.7
+
+#lists
+---
+ - Apple
+ - Orange
+ - Mango
+---
+
+---
+# Employee records
+ - martin:
+     name: Martin
+     job: Developer
+     skills:
+      - python
+      - perl
+      - pascal
+ - tabitha:
+     name: dabi
+     job: developer
+     skills:
+      - lisp
+      - fortan
+      - erlang
+---
+
+#booleans
+deployed: yes
+
+#multiline strings
+multilineString:  |
+ this is a multiline strings
+ and this is the next line
+ next line
+
+
+#--- multiple yaml components

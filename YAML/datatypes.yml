@@ -1,0 +1,61 @@
+# How data is strored in YAML
+# YAML can contain different kinds of data blocks :
+# Sequence : values listed in specific order . sequence starts with a dash ans a space . (ex : python list)
+# Mapping : key and value pairs .
+
+# String variables 3 ways to represent string  
+myself: Gurpartap Singh
+fruit: "apple"
+job: 'swe'
+ 
+bio: |
+ my name is Gurpartap Singh.
+ i am learning devops.
+
+#writing single lines in multiple lines
+message: >
+ this will
+ all be
+ in one single line
+
+
+number: 234
+marks: 34.432
+boolean: No # n , N , false , FALSE , False
+# same for true y , Y , YES , yes
+
+#specify the type
+zero: !!int 0
+positiveNum: !!int 45
+negativeNum: -45
+binaryNum: 0b11001
+hexa: !!int 0x45
+commaValue: !!int  +540000 # 540,000
+
+#null
+surname: !!null Null # or null NULL ~
+# ~: this is null key
+
+# Date and time
+date:  !!timestamp 2002-12-14
+no-time zone: 2001-12-15T02:59:43.1Z
+
+#advance data types
+student: !!seq
+ - marks
+ - roll_no
+ - name
+---
+
+
+#nested sequence
+- 
+ - Apple
+ - Orange
+ - mango
+- marks
+   -
+   -
+   - 3
+
+#key : value pairs are called maps
