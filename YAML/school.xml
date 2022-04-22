@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<School name="DPS" principal="Someone">
+    <Students>
+       <Student>
+          <name>abc</name>
+          <mark>234</mark>
+          <rno>12345</rno>
+       </Student>
+    </Students>
+</School> 
+
+<!--not readble-->

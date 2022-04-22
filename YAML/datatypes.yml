@@ -45,17 +45,19 @@ student: !!seq
  - marks
  - roll_no
  - name
+
 ---
-
-
-#nested sequence
-- 
- - Apple
- - Orange
- - mango
-- marks
-   -
-   -
-   - 3
-
 #key : value pairs are called maps
+
+# reusing some properties using anchors
+likings: &likes
+  fav fruit: Mango
+  dislikers: grapes
+
+person1:
+  name: Gurpartap
+  <<: *likes
+
+person2:
+  name: abc
+  <<: *likes
