@@ -15,7 +15,6 @@ For checking number of shells : cat /etc/shells
 
 $ : is just a sign of the shell prompt , means that shell is ready to accept commands . 
 
-
 Everything in linux is a file .
 
 cd . current
@@ -27,7 +26,6 @@ file command
 
 less command : opposite of more .
 can read file 
-
 
 Environment variable : 
 This is not a linux exclusice thing . It works (almost) the same in windows .
