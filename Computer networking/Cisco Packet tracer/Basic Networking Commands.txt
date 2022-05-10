@@ -1,6 +1,0 @@
-Basic networking commands such as 
-ipconfig
-ipconfig/all
-nslookup
-ping
-tracet
