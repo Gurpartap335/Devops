@@ -53,24 +53,3 @@ DOCKER_HOST image saved .
 
 docker run hello-world  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
