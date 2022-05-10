@@ -32,3 +32,4 @@ ligher distro than Ubuntu
 Package management : mint is ubuntu based , it uses the debian package manager .
 
 configurability : great user interface , less bloated than ubuntu .
+
