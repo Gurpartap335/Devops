@@ -45,3 +45,8 @@ using the DockerAPI or CLI.
 - is portable(can be run on any OS)
 - Containers are isolated from each other and run their own software, binaries and configurations.
 
+### Container Volumes
+Each container starts from the image defination each time it starts.
+While containers can create, update and delete files, those changes are lost when the container is removed and 
+all changes are isolated to thata container.
+**With volumes we can change this**
