@@ -51,8 +51,7 @@ Unique indentifiers of network ::
 3. MAC address (a mac address is assigned to the NIC at the time of manufacturing . )
 
 Host name :: each device in the network is associated with a unique name known as HOSTNAME .
-IP address
-also known as logical address
+IP address also known as logical address
 IANA assigns IPv4 
 IPv4 :: 32 bits
 IPv6 :: 128-bits
@@ -64,10 +63,14 @@ is a unique physical address assigned to each network adapter in a computer or m
 More than one mac address .
 
 Port ::
-A port can be referred to as a logical channel through which data can be sent/received to an application .
+A port can be referred to as a logical channel through which data can be sent/received to an application. Ports are software based and managed by a operating system.
+**Ports allow computers to easily differentiate between different kinds of traffic.**
 
 A port number is a 16-bit integer 
 2^16 65,536
+
+Ports 20 and 21 FTP
+Port 80 HTTP
 
 netstat -a
 
