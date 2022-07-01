@@ -82,6 +82,6 @@ nslookup command .
 
 ARP : Address resolution protocol
 IP -> mac
-used by the DATA Link layer .
+used by the DATA Link layer.
 
-RARP reverse address resolution protocol .
+RARP reverse address resolution protocol.
